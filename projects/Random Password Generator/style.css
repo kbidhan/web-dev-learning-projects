@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2C003E, #001F4D);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.5);
+    width: 350px;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h1 span {
+    color: #8A2BE2;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    background: linear-gradient(90deg, #8A2BE2, #4B0082);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(138, 43, 226, 0.8);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #4B0082, #8A2BE2);
+    box-shadow: 0px 0px 20px rgba(138, 43, 226, 1);
+}
+
+.display {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.display img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    transition:all ease 0.3s;
+}
+
+.display img:hover {
+    transform: scale(1.1);
+}
